@@ -14,6 +14,5 @@
       "source": "/(.*)",
       "destination": "index.cjs"
     }
-  ],
-  "installCommand": "corepack enable && corepack prepare pnpm@10.10.0 --activate && pnpm install"
+  ]
 }
