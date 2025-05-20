@@ -7,6 +7,12 @@ module.exports = function () {
     <meta charset="utf-8">
     <title>Waline Management System</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
+    <style>
+      /* 隐藏社交登录按钮 */
+      .social-accounts {
+        display: none !important;
+      }
+    </style>
   </head>
   <body>
     <script>
@@ -15,7 +21,6 @@ module.exports = function () {
     window.recaptchaV3Key = ${JSON.stringify(process.env.RECAPTCHA_V3_KEY)};
     window.turnstileKey = ${JSON.stringify(process.env.TURNSTILE_KEY)};
     window.serverURL = '${ctx.serverURL}/api/';
-    window.ALLOW_SOCIALS = []; // 禁用所有社交登录按钮，只允许邮箱登录
     </script>
     <script src="${
       process.env.WALINE_ADMIN_MODULE_ASSET_URL || '//unpkg.com/@waline/admin'
