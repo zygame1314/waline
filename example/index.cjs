@@ -1,6 +1,4 @@
-const createLocalWalineApp = require('../packages/server/index.js');
+const Application = require('@waline/vercel');
 
-const appInstance = createLocalWalineApp({
+module.exports = Application({
 });
-
-module.exports = appInstance;
