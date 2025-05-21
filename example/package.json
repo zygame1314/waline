@@ -1,12 +1,8 @@
 {
-    "name": "template",
-    "version": "0.0.1",
-    "private": true,
-    "dependencies": {
-        "thinkjs": "^3.2.15",
-        "think-model": "^1.5.4",
-        "think-helper": "^1.1.4",
-        "think-logger3": "^1.4.0",
-        "think-router-rest": "^1.0.5"
-    }
+  "name": "template",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "@waline/vercel": "file:../server"
+  }
 }

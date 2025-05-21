@@ -6,13 +6,7 @@
   "builds": [
     {
       "src": "index.cjs",
-      "use": "@vercel/node",
-      "config": {
-        "includeFiles": [
-          "../server/**"
-        ],
-        "installCommand": "npm install"
-      }
+      "use": "@vercel/node"
     }
   ],
   "rewrites": [
