@@ -10,9 +10,7 @@
       "config": {
         "includeFiles": [
           "../server/**"
-        ],
-        "installCommand": "cd ../server && npm install && cd ../example",
-        "buildCommand": "echo 'Skipping build step'"
+        ]
       }
     }
   ],
