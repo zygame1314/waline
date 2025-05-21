@@ -1,4 +1,4 @@
-const Application = require('./server');
+const Application = require('../server');
 
 module.exports = Application({
   plugins: [],
@@ -6,4 +6,3 @@ module.exports = Application({
     // do what ever you want after comment saved
   },
 });
-

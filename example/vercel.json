@@ -9,9 +9,9 @@
       "use": "@vercel/node",
       "config": {
         "includeFiles": [
-          "../packages/server/**"
+          "../server/**"
         ],
-        "installCommand": "npm install",
+        "installCommand": "cd ../server && npm install && cd ../example",
         "buildCommand": "echo 'Skipping build step'"
       }
     }
