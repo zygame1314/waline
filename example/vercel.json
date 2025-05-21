@@ -10,7 +10,8 @@
       "config": {
         "includeFiles": [
           "../server/**"
-        ]
+        ],
+        "installCommand": "npm install"
       }
     }
   ],
