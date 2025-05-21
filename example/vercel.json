@@ -11,7 +11,7 @@
         "includeFiles": [
           "../packages/server/**"
         ],
-        "installCommand": "cd .. && npm install --no-frozen-lockfile && cd example",
+        "installCommand": "npm install",
         "buildCommand": "echo 'Skipping build step'"
       }
     }
