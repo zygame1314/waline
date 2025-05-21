@@ -15,10 +15,9 @@ module.exports = function () {
     window.recaptchaV3Key = ${JSON.stringify(process.env.RECAPTCHA_V3_KEY)};
     window.turnstileKey = ${JSON.stringify(process.env.TURNSTILE_KEY)};
     window.serverURL = '${ctx.serverURL}/api/';
-    window.ALLOW_SOCIALS = [];
+    window.ALLOW_SOCIALS = ["github"];
     </script>
-    <script src="${process.env.WALINE_ADMIN_MODULE_ASSET_URL || '//unpkg.com/@waline/admin'
-      }"></script>
+    <script src="${process.env.WALINE_ADMIN_MODULE_ASSET_URL || '//unpkg.com/@waline/admin'}"></script>
   </body>
 </html>`;
   };
