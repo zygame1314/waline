@@ -1,6 +1,6 @@
 const Application = require('./app');
 
-module.exports = Waline({
+module.exports = Application({
   plugins: [],
   disallowIPList: [],
   async avatarUrl(comment) {
